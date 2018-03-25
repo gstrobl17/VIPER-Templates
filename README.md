@@ -1,11 +1,11 @@
 
-Templates for creating templated swift code for the VIPER architecture. 
+Templates for creating templated swift 4 code for the VIPER architecture. 
 
 This project is a significant adaptation and reworking of the work provided by Juanpe Catalán's [Swift-VIPER-Module](https://github.com/Juanpe/Swift-VIPER-Module).
 
 ## How to install
 
-In terminal, from the download directory, run:
+In terminal, run the install script from the repository's main directory:
 ```
 swift install.swift
 ```
