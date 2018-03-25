@@ -11,9 +11,14 @@ import UIKit
 class ___VARIABLE_productName:identifier___Interactor {
 
     weak var presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol?
+    weak var delegate: ___VARIABLE_productName:identifier___InterfaceDelegate?
 
 }
 
 extension ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol {
+
+}
+
+extension ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InterfaceProtocol {
 
 }
