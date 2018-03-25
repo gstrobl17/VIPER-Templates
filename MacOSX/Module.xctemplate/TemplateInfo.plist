@@ -82,7 +82,6 @@
 			<array>
 				<string>Programmatic</string>
 				<string>Storyboard</string>
-				<string>Xib</string>
 			</array>
 		</dict>
 	</array>
