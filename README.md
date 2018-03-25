@@ -1,5 +1,5 @@
 
-Templates for creating templated code for the VIPER architecture. 
+Templates for creating templated swift code for the VIPER architecture. 
 
 This project is a significant adaptation and reworking of the work provided by Juanpe Catalán's [Swift-VIPER-Module](https://github.com/Juanpe/Swift-VIPER-Module).
 
@@ -35,3 +35,4 @@ After using VIPER, I've found it to be very beneficial in many ways. Let’s get
 - [#8 VIPER to be or not to be?](https://swifting.io/blog/2016/03/07/8-viper-to-be-or-not-to-be/)
 - [https://www.objc.io/issues/13-architecture/viper/](https://www.objc.io/issues/13-architecture/viper/)
 - [https://www.ckl.io/blog/ios-project-architecture-using-viper/](https://www.ckl.io/blog/ios-project-architecture-using-viper/)
+- [http://www.learn-cocos2d.com/store/xcode4-template-documentation](http://www.learn-cocos2d.com/store/xcode4-template-documentation)
