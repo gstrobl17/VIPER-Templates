@@ -35,4 +35,5 @@ After using VIPER, I've found it to be very beneficial in many ways. Let’s get
 - [#8 VIPER to be or not to be?](https://swifting.io/blog/2016/03/07/8-viper-to-be-or-not-to-be/)
 - [https://www.objc.io/issues/13-architecture/viper/](https://www.objc.io/issues/13-architecture/viper/)
 - [https://www.ckl.io/blog/ios-project-architecture-using-viper/](https://www.ckl.io/blog/ios-project-architecture-using-viper/)
+- [https://useyourloaf.com/blog/creating-custom-xcode-project-templates/](https://useyourloaf.com/blog/creating-custom-xcode-project-templates/)
 - [http://www.learn-cocos2d.com/store/xcode4-template-documentation](http://www.learn-cocos2d.com/store/xcode4-template-documentation)
