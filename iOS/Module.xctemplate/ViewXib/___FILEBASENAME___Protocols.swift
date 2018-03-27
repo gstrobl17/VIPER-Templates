@@ -22,6 +22,8 @@ protocol ___VARIABLE_productName:identifier___InterfaceDelegate: class {
 // MARK: Wireframe -
 protocol ___VARIABLE_productName:identifier___WireframeProtocol: class {
 
+    weak var viewController: UIViewController? { get set }
+
     static func createModule() -> (UIViewController & ___VARIABLE_productName:identifier___InterfaceProtocol)
 
 }
