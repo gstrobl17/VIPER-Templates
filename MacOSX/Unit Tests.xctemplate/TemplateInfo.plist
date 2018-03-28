@@ -8,23 +8,23 @@
 	</array>
 	<key>Platforms</key>
 	<array>
-		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>ViperModule</string>
+	<string>ViperUnitTests</string>
 	<key>Description</key>
-	<string>Basic Swift VIPER module template. Creates View, Interactor, Presenter, Router with protocols.</string>
+	<string>Basic Swift VIPER unit test files. Creates Interactor, Presenter, Router unti test files.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___</string>
 	<key>SortOrder</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>Name of module that you need create</string>
+			<string>Name of module that you need to create unit tests for</string>
 			<key>Default</key>
 			<string></string>
 			<key>Identifier</key>
@@ -63,26 +63,6 @@
 				<string>View</string>
 				<string>Presenter</string>
 				<string>Interactor</string>
-			</array>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>viewControllerSource</string>
-			<key>Required</key>
-			<string>YES</string>
-			<key>Name</key>
-			<string>View Controller UI Source:</string>
-			<key>Description</key>
-			<string>Where the view controller for the module comes from</string>
-			<key>Type</key>
-			<string>popup</string>
-			<key>Default</key>
-			<string>Programmatic</string>
-			<key>Values</key>
-			<array>
-				<string>Programmatic</string>
-				<string>Storyboard</string>
-				<string>Xib</string>
 			</array>
 		</dict>
 	</array>
