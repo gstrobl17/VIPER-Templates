@@ -28,10 +28,10 @@ class ___VARIABLE_productName:identifier___RouterTests: XCTestCase {
 
     func testCreateModule() {
 
-        let module = ___VARIABLE_productName:identifier___Router.createModule()
+        let viewController = ___VARIABLE_productName:identifier___Router.createModule()
 
-        XCTAssertTrue(module.view is ___VARIABLE_productName:identifier___ViewProtocol)
-        if let viewController = module.view as? ___VARIABLE_productName:identifier___ViewProtocol {
+        XCTAssertTrue(viewController is ___VARIABLE_productName:identifier___ViewProtocol)
+        if let viewController = viewController as? ___VARIABLE_productName:identifier___ViewProtocol {
             XCTAssertNotNil(viewController.presenter)
             if let presenter = viewController.presenter {
                 XCTAssertTrue(presenter is ___VARIABLE_productName:identifier___Presenter)
