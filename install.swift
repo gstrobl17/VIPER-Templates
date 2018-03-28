@@ -45,7 +45,7 @@ func moveTemplates() {
         let subdirectoryName = "MacOSX"
         let sourceURL = currentURL.appendingPathComponent(subdirectoryName)
         let destinationURL = rootFileURL.appendingPathComponent(subdirectoryName).appendingPathComponent(viperDirectoryName)
-        let templateNames = ["Module.xctemplate"]
+        let templateNames = ["Module.xctemplate", "Unit Tests.xctemplate"]
         print("-- MacOSX templates --")
         try moveTemplates(for: templateNames, at: sourceURL, to: destinationURL)
     }
