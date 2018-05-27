@@ -13,11 +13,9 @@ class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:ident
     weak var viewController: UIViewController?
 
     static func createModule() -> UIViewController {
-        // swiftlint:disable force_cast todo
-        //TODO: set real storyboard name and view controller identifier
+        //TODO: set real storyboard name and view controller identifier //swiftlint:disable:this todo
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let view = storyboard.instantiateViewController(withIdentifier: "___VARIABLE_productName:identifier___ViewController") as! ___VARIABLE_productName:identifier___ViewController
-        // swiftlint:enable force_cast todo
+        let view = storyboard.instantiateViewController(withIdentifier: "___VARIABLE_productName:identifier___ViewController") as! ___VARIABLE_productName:identifier___ViewController //swiftlint:disable:this force_cast
         let interactor = ___VARIABLE_productName:identifier___Interactor()
         let router = ___VARIABLE_productName:identifier___Router()
         let presenter = ___VARIABLE_productName:identifier___Presenter(interface: view, interactor: interactor, router: router)

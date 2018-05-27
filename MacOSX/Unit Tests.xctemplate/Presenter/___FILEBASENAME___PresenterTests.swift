@@ -8,9 +8,7 @@
 
 import AppKit
 import XCTest
-// swiftlint:disable todo
-@testable import ___PACKAGENAME___	//TODO: Fix testable target
-// swiftlint:enable todo
+@testable import ___PACKAGENAME___	//TODO: Fix testable target //swiftlint:disable:this todo
 
 class ___VARIABLE_productName:identifier___PresenterTests: XCTestCase {
 

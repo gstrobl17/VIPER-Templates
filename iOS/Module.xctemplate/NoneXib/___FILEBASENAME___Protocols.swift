@@ -11,7 +11,7 @@ import UIKit
 // MARK: Wireframe -
 protocol ___VARIABLE_productName:identifier___WireframeProtocol: class {
 
-    weak var viewController: UIViewController? { get set }
+    var viewController: UIViewController? { get set }
 
     static func createModule() -> UIViewController
 
