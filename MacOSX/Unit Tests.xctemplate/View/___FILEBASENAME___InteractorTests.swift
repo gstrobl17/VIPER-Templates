@@ -37,6 +37,4 @@ class ___VARIABLE_productName:identifier___InteractorTests: XCTestCase {
 
     // MARK: - ___VARIABLE_productName:identifier___InteractorInputProtocol methods -
 
-    // MARK: - ___VARIABLE_productName:identifier___InterfaceProtocol methods -
-
 }

@@ -40,4 +40,6 @@ class ___VARIABLE_productName:identifier___RouterTests: XCTestCase {
             }
         }
     }
+
+    // MARK: - ___VARIABLE_productName:identifier___InterfaceProtocol methods -
 }

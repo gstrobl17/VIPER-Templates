@@ -18,7 +18,7 @@ class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:ident
         let view = storyboard.instantiateViewController(withIdentifier: "___VARIABLE_productName:identifier___ViewController") as! ___VARIABLE_productName:identifier___ViewController //swiftlint:disable:this force_cast
         let interactor = ___VARIABLE_productName:identifier___Interactor()
         let router = ___VARIABLE_productName:identifier___Router()
-        let presenter = ___VARIABLE_productName:identifier___Presenter(interface: view, interactor: interactor, router: router)
+        let presenter = ___VARIABLE_productName:identifier___Presenter(view: view, interactor: interactor, router: router)
 
         view.presenter = presenter
         interactor.presenter = presenter

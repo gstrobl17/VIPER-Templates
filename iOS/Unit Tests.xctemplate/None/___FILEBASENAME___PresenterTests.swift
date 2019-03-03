@@ -23,7 +23,7 @@ class ___VARIABLE_productName:identifier___PresenterTests: XCTestCase {
         view = Mock___VARIABLE_productName:identifier___View()
         interactor = Mock___VARIABLE_productName:identifier___InteractorInput()
         router = ___VARIABLE_productName:identifier___Router()
-        presenter = ___VARIABLE_productName:identifier___Presenter(interface: view, interactor: interactor, router: router)
+        presenter = ___VARIABLE_productName:identifier___Presenter(view: view, interactor: interactor, router: router)
     }
 
     override func tearDown() {

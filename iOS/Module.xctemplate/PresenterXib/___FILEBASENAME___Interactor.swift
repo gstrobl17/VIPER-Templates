@@ -18,7 +18,3 @@ class ___VARIABLE_productName:identifier___Interactor {
 extension ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol {
 
 }
-
-extension ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InterfaceProtocol {
-
-}
