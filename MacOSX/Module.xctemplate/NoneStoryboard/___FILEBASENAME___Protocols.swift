@@ -9,7 +9,7 @@
 import AppKit
 
 // MARK: Wireframe -
-protocol ___VARIABLE_productName:identifier___WireframeProtocol: class {
+protocol ___VARIABLE_productName:identifier___WireframeProtocol: AnyObject {
 
     var viewController: NSViewController? { get set }
 
@@ -18,12 +18,12 @@ protocol ___VARIABLE_productName:identifier___WireframeProtocol: class {
 }
 
 // MARK: Interactor -
-protocol ___VARIABLE_productName:identifier___InteractorOutputProtocol: class {
+protocol ___VARIABLE_productName:identifier___InteractorOutputProtocol: AnyObject {
 
     /* Interactor -> Presenter */
 }
 
-protocol ___VARIABLE_productName:identifier___InteractorInputProtocol: class {
+protocol ___VARIABLE_productName:identifier___InteractorInputProtocol: AnyObject {
 
     var presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol? { get set }
 
@@ -31,7 +31,7 @@ protocol ___VARIABLE_productName:identifier___InteractorInputProtocol: class {
 }
 
 // MARK: Presenter -
-protocol ___VARIABLE_productName:identifier___PresenterProtocol: class {
+protocol ___VARIABLE_productName:identifier___PresenterProtocol: AnyObject {
 
     var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol? { get set }
 
@@ -39,7 +39,7 @@ protocol ___VARIABLE_productName:identifier___PresenterProtocol: class {
 }
 
 // MARK: View -
-protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
+protocol ___VARIABLE_productName:identifier___ViewProtocol: AnyObject {
 
     var presenter: ___VARIABLE_productName:identifier___PresenterProtocol? { get set }
 
